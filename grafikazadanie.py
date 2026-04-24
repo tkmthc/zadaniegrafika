@@ -5,7 +5,7 @@ import requests
 from io import BytesIO
 
 local_filename = "zdjecie.jpg" 
-url = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Lemon.jpg/800px-Lemon.jpg"
+url = "http://swiatkotow.pl/gfx/swiatkotow/_thumbs/pl/swiatkotowrasy/78/37/1/ZIh0v5doZJWr1uLXimVl,2009.05.24-0.jpg"
 
 print("Próba wczytania obrazu")
 img = cv2.imread(local_filename)
